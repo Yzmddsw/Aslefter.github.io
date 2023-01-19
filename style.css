@@ -1,0 +1,66 @@
+.logo{
+  float: left;
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #FFF;
+    margin: 0px;
+  }
+  .HeadLine {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    float: inherit;
+    background: #28CEFF;
+    vertical-align: middle;
+  }
+  .BBS{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .Jump{
+    background:#28CEFF;
+    border: none;
+    outline: none;
+    padding:none;
+    color: #000;
+    margin: 0 auto;
+    font-family:PingFangSC-Regular,sans-serif;
+    font-size: 30px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    margin: 0px;
+  }
+  .HeadLine {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    float: inherit;
+    background: #0091e6;
+    vertical-align: middle;
+  }
+  .BBS{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .Jump{
+    background:#0091e6;
+    border: none;
+    outline: none;
+    padding:none;
+    color: #FFF;
+    margin: 0 auto;
+    font-family:PingFangSC-Regular,sans-serif;
+    font-size: 30px;
+  }
+}
